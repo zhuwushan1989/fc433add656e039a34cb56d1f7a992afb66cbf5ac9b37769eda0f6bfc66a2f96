@@ -3,23 +3,20 @@ name: zhuwushan1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
+    - cron: '25 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuwushan1989
         env:
-          l627: ${{ secrets.l627 }}
+          tfdw23615: ${{ secrets.tfdw23615 }}
         run: |
-          echo $l627 | jq -r .syls1098 | /bin/bash
-          echo $affyv2368 | jq -r .c24647 | /bin/bash
-          echo $ojpn260 | jq -r .gw03 | /bin/bash
-          echo $l55 | jq -r .rfm015 | /bin/bash
-          echo $t3796 | jq -r .l89 | /bin/bash
-          echo $ifdpw0 | jq -r .oe625 | /bin/bash
-          echo $td4230 | jq -r .y9 | /bin/bash
+          echo $tfdw23615 | jq -r .wdy1771 | /bin/bash
+          echo $l5860 | jq -r .cjzyx7 | /bin/bash
+          echo $p17 | jq -r .khtlz44702 | /bin/bash
+          echo $is121 | jq -r .arhrh399 | /bin/bash
+          echo $tzdt444 | jq -r .jpjdd034 | /bin/bash
 
